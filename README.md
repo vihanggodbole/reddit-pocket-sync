@@ -14,11 +14,15 @@ $ pip install -r requirements.txt
 Before using this, you must create your own reddit app to obtain a public and a secret key. This can be done [here](https://ssl.reddit.com/prefs/apps).
 
 Once you obtain your keys, create a new file in any text editor with the following content -
->[mysettings]
->client_id =YOUR_PUBLIC_APP_ID
->client_secret = YOUR_SECRET_APP_ID
->password = YOUR_PASSWORD
->username = YOUR_USERNAME
+> [mysettings]
+
+> client_id =YOUR_PUBLIC_APP_ID
+
+> client_secret = YOUR_SECRET_APP_ID
+
+> password = YOUR_PASSWORD
+
+> username = YOUR_USERNAME
 
 Save it as `praw.ini` .
 Place it in your local working directory.
